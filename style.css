@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 2. 設定整體網⾴預設背景與⽂字顏⾊ */
+body {
+    line-height: 1.6;
+    color: #333333;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans TC", "Microsoft JhengHei", "PingFang TC", sans-serif;
+}
+
+
+header {
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* 導覽列超連結樣式 (後代選擇器) */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #34495e;
+}
+
+/* 導覽列超連結懸停效果 */
+nav a:hover {
+    color: #f1c40f;
+    /* 滑⿏移上去變明亮⾦⿈⾊ */
+    text-decoration: underline;
+}
+
